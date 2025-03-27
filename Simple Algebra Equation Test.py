@@ -5,4 +5,4 @@ name = input("Enter your name: ")
 print(f"Welcome, {name}! Let's test your algebra skills today.\n")
 print("Solve for x in each equation. You Got This! \n")
 
-Commit test
+Commit testing again
