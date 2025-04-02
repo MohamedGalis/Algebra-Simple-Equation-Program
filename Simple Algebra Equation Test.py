@@ -15,4 +15,23 @@ def make_a_equation1():
     a = y * x
     return (f"{y} * x = {a}", x)  # Returns equation and answer. Will use this later on to checks users answer
 
+def make_a_equation2():
+    """Generates an addition equation in the form of d + x = g and returns the equation string and correct answer."""
+    d = random.randint(-5, 10)  # Numbers between -5 to 15
+    x = random.randint(-5, 10)
+    g = d + x
+    return (f"{d} + x = {g}", x)
+
+# Function to display the type of equation
+def get_user_guess(equation):
+    while True:
+        try:
+            return int(input(f"Solve for x: {equation}\nYour answer: ")) # Users response need to be a integer and String for the equation
+        except ValueError:
+            print("Incorrect input! Please enter a valid number.") # If user inputs text. It will display the following until they enter a integer
+
+# Score starts a 0 and 5 Questions will generated
+score = 0  
+test_questions = 5 
+
 
