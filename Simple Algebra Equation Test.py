@@ -35,3 +35,14 @@ score = 0
 test_questions = 5 
 
 
+
+# Runs the quiz 5 times
+for i in range(test_questions):
+    equation_type = random.choice([1, 2]) # The equation will either select Equation 1 or 2
+
+    if equation_type == 1: # If equation 1 is selected it will print the make_a_equation1()
+        equation, correct_answer = make_a_equation1()  
+    else:
+        equation, correct_answer = make_a_equation2() # Else it will select make_a_equation2()
+
+
