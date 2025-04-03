@@ -64,8 +64,7 @@ The program will start by asking you for your name. It will prompt you to answer
 
 ### Example Program Outcome 
 
-![image](https://github.com/user-attachments/assets/29777511-ab90-4081-93af-ccd680afb513)
-
+![image](https://github.com/user-attachments/assets/97bd3f38-3345-48ab-bb17-07945f22c10c)
 
 <h2 align="center"><strong>Technical Documentation</strong></h2>
 
