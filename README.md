@@ -63,6 +63,30 @@ Example Program Outcome
 ![image](https://github.com/user-attachments/assets/29777511-ab90-4081-93af-ccd680afb513)
 
 
+<h2 align="center"><strong>Technical Documentation</strong></h2>
+
+The program starts by welcoming the user. The following variables and print functions are at the start so they run in the beginning. Welcoming the user. I created a variable “name=input()” which will prompt the user to enter their name. The print string below that variable will take the input of the user's name and substitute  that into the print string I used a f string format to do this. Lastly the last print function lets the user know to ‘Solve for x in each line’ and i added \n which will create a new line for the next set of codes. 
+
+![image](https://github.com/user-attachments/assets/2d620d03-be1e-460a-963f-ff09f2fbfdf7)
+
+In the next piece of code i imported the Random module which is a library which is used to generate random numbers. I required to import this module to create the two defined function make_a_equation1 and make_a_equation2. As you can see for each letter i have equated it to random.randint(-5,10) so when it creates the equation the numbers can be any number between –5 to 10.  
+
+My first defined function is creating a type of equation in the form of a = y * x and the second function is g = d + x. For each defined function i made sure it returns the equation string which is (‘{y} * x = {g}) and return the answer (‘x’). As both return functions are in f strings for each question it will generate a different equation with different numbers. 
+
+![image](https://github.com/user-attachments/assets/b36ef6e2-f421-4aa9-a208-7ec9afadee73)
+
+In the next part of the program, I created a function that asks the user to solve the equation using int(input (f"Solve for x: {equation}\nYour answer: ")). For this function, I used a while True loop to create an infinite loop. Below this, I added a try block, which ensures the user inputs a valid integer. If they enter text or a float, it raises an error. That’s where the except block comes in it catches the error and returns to the original try command, prompting the user again until the correct input is entered. 
+
+I then setup the quiz by setting up the start score number which is score = 0 and number of questions test_question = 5.  
+
+![image](https://github.com/user-attachments/assets/fc8eace6-2d86-40d0-a897-238499e8fd57)
+
+
+
+
+
+
+
 
 
 
