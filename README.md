@@ -123,9 +123,26 @@ The correct answer (x)
 
 For each defined function i made sure it returns the equation string which is (‘{y} * x = {g}) and return the answer (‘x’). As both return functions are in f strings for each question it will generate a different equation with different numbers. 
 
-Creating User Input Function 
+### Creating User Input Function 
 
 ![image](https://github.com/user-attachments/assets/fc8eace6-2d86-40d0-a897-238499e8fd57)
+
+The function get_user_guess(equation) ensures the user provides a valid integer answer. 
+
+I created a function that asks the user to solve the equation using 
+
+ int(input (f"Solve for x: {equation}\nYour answer: ")) 
+
+ For this function, I used a while True loop to create an infinite loop. Below this, I added a try block, which ensures the user inputs a valid integer. If they enter text or a float, it raises an error. That’s where the except block comes in it catches the error and returns to the original try command, prompting the user again until the correct input is entered. 
+
+### Quiz Execution 
+
+![image](https://github.com/user-attachments/assets/dc407515-4792-4b6e-8644-88942026c83e)
+
+
+
+
+
 
 
 
