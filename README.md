@@ -1,14 +1,14 @@
-<h3 align="center"><b><u>User Documentation</u></b></h3>
+<h2 align="center"><strong>User Documentation</strong></h2>
 
 The developed python is a program designed to test users with their algebra linear equation abilities. The program consists of 5 different questions. The style of questions the user will be tested is questions that have a coefficient integer multiplied by a unknown number for example 2 * X = 10 and addition solving equation question for example 7 + X = 10. The user will be required to enter the number to solve the equation. The program provides the user with immediate feedback on whether the input is correct. 
 
-***How To Launch the Program***
+### How To Launch the Program
 
 Download the ZIP file from https://github.com/MohamedGalis/Algebra-Simple-Equation-Program.git
 
 ![Image](https://github.com/user-attachments/assets/699c5e50-4cbd-4f5c-a57b-7f4cbc65cf7d)
 
-**Windows Steps To Run The Program**
+### Windows Steps To Run The Program
 
 1.Extract the folder: Right-click the downloaded ZIP file and select Extract. Save and copy the file path location
 
@@ -28,7 +28,7 @@ Download the ZIP file from https://github.com/MohamedGalis/Algebra-Simple-Equati
 
 ![image](https://github.com/user-attachments/assets/6e3422d2-f7d2-4123-a13f-a94b4996e88e)
 
-**Mac Steps to Run The Program**
+### Mac Steps to Run The Program
 
 1.Ensure you have the Python 3.9+ installed. You can install python using this link https://www.python.org/downloads/ . 
 
@@ -58,7 +58,7 @@ Download the ZIP file from https://github.com/MohamedGalis/Algebra-Simple-Equati
 
 The program will start by asking you for your name. It will prompt you to answer 5 Algebraic equations. Enter your answers as whole number. If your answer is correct, you will receive positive feedback, if not the program will display the correct answer. Lastly if you enter a text the program will ask you to enter a valid input as your answers need to be a whole number. At the end of the program, you will receive your final score out of 5. Good Luck! 
 
-Example Program Outcome 
+### Example Program Outcome 
 
 ![image](https://github.com/user-attachments/assets/29777511-ab90-4081-93af-ccd680afb513)
 
