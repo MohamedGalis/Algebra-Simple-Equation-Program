@@ -1,2 +1,2 @@
-<p align="center"><strong><u>User Documentation</u></strong></p>
+<h3 align="center"><b><u>User Documentation</u></b></h3>
 
