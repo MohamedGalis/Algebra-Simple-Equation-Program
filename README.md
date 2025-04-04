@@ -16,7 +16,7 @@ https://github.com/MohamedGalis/Algebra-Simple-Equation-Program.git
 
 1.Extract the folder: Right-click the downloaded ZIP file and select Extract. Save and copy the file path location
 
-   ![Image](https://github.com/user-attachments/assets/7296a173-2c7e-4cb4-ae76-03cff6b86a5d)
+![image](https://github.com/user-attachments/assets/1f5f9c41-8816-48fa-94c0-faa841715180)
 
 2.Ensure you have the Python 3.9+ installed. You can install python using this link 
 
@@ -26,7 +26,7 @@ https://www.python.org/downloads/
 
 3.Search Command prompt in the search bar 
 
-![image](https://github.com/user-attachments/assets/03be4173-ec9d-4fca-930c-977fa5fac187)
+![image](https://github.com/user-attachments/assets/095f7330-648c-4146-9201-0bbdd08845fe)
 
 4.To access the folder's location, use the cd command to change to the desired directory. Type cd and paste file path C:\Work Categories\Apprenticeship\Northeastern University\Intensive Foundations of Computer Science\Algebra-Simple-Equation-Program-main (1)\Algebra-Simple-Equation-Program-main
 
@@ -94,29 +94,29 @@ The program will start by asking you for your name. It will prompt you to answer
 ### Welcoming User & Initial Setup 
 
 ![image](https://github.com/user-attachments/assets/2d620d03-be1e-460a-963f-ff09f2fbfdf7)
-
+```
 print("Welcome To The Algebra Equation Test") 
-
+```
 Displays a welcome message. 
-
+```
 name = input("Enter your name: ") 
-
+```
 I created a variable “name=input()” which will prompt the user to enter their name. 
-
+```
 print(f"Welcome, {name}! Let's test your algebra skills today.\n") 
-
+```
 Uses an f-string to personalize the welcome message. It takes the input of the user's name and substitute that into the print string 
-
+```
 print("Solve for x in each equation. You Got This! \n") 
-
+```
 Lastly the last print function lets the user know to ‘Solve for x in each line’ and i added \n which will create a new line for the next set of codes. 
 
 ### Defining Equations
 
 ![image](https://github.com/user-attachments/assets/b36ef6e2-f421-4aa9-a208-7ec9afadee73)
-
+```
 Import Random 
-
+```
 i imported the Random module which is a library which is used to generate random numbers. I required to import this module to create the two defined function make_a_equation1 and make_a_equation2. 
 
 make_a_equation1() 
