@@ -172,7 +172,7 @@ and number of questions
 ```
 test_question = 5
 ```
-![image](https://github.com/user-attachments/assets/f143d539-8514-49b5-942d-dd158467d818)
+![image](https://github.com/user-attachments/assets/34acf497-1b44-4ce8-8405-6a62cee9bf72)
 
 In this part of the code i used
 ```
