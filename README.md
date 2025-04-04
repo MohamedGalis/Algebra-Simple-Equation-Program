@@ -94,22 +94,23 @@ The program will start by asking you for your name. It will prompt you to answer
 ### Welcoming User & Initial Setup 
 
 ![image](https://github.com/user-attachments/assets/2d620d03-be1e-460a-963f-ff09f2fbfdf7)
+
+Displays a welcome message.
 ```
 print("Welcome To The Algebra Equation Test") 
 ```
-Displays a welcome message. 
+I created a variable “name=input()” which will prompt the user to enter their name. 
 ```
 name = input("Enter your name: ") 
 ```
-I created a variable “name=input()” which will prompt the user to enter their name. 
+Uses an f-string to personalize the welcome message. It takes the input of the user's name and substitute that into the print string
 ```
 print(f"Welcome, {name}! Let's test your algebra skills today.\n") 
 ```
-Uses an f-string to personalize the welcome message. It takes the input of the user's name and substitute that into the print string 
+Lastly the last print function lets the user know to ‘Solve for x in each line’ and i added \n which will create a new line for the next set of codes.
 ```
 print("Solve for x in each equation. You Got This! \n") 
 ```
-Lastly the last print function lets the user know to ‘Solve for x in each line’ and i added \n which will create a new line for the next set of codes. 
 
 ### Defining Equations
 
