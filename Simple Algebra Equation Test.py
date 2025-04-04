@@ -50,3 +50,7 @@ for i in range(test_questions):
         score += 1  
     else: 
         print(f"❌Wrong! The correct answer was {correct_answer}.\n")
+
+# Prints final score and thanks the user for completing the test 
+print(f"Test Over! You scored {score} out of {test_questions}.") 
+print("Thanks for completing the Algebra Test")
