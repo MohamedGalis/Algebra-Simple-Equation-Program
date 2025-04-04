@@ -120,31 +120,31 @@ Import Random
 ```
 i imported the Random module which is a library which is used to generate random numbers. I required to import this module to create the two defined function make_a_equation1 and make_a_equation2. 
 
-make_a_equation1() 
+```make_a_equation1() ```
 
 Generates a multiplication equation in the form: y * x = a 
 
-Uses random.randint(-5, 10) to pick random integers for y and x. 
+Uses ```random.randint(-5, 10)``` to pick random integers for y and x. 
 
 Returns: 
 
-The equation string (f"{y} * x = {a}") 
+The equation string ```(f"{y} * x = {a}")``` 
 
-The correct answer (x) 
+The correct answer ```(x)``` 
 
-make_a_equation2() 
+```make_a_equation2()```
 
 Generates an addition equation in the form: d + x = g 
 
-Uses random.randint(-5, 10) for d and x. 
+Uses ```random.randint(-5, 10)``` for d and x. 
 
 Returns: 
 
-The equation string (f"{d} + x = {g}") 
+The equation string ```(f"{d} + x = {g}")```
 
-The correct answer (x) 
+The correct answer ```(x)``` 
 
-For each defined function i made sure it returns the equation string which is (‘{y} * x = {g}) and return the answer (‘x’). As both return functions are in f strings for each question it will generate a different equation with different numbers. 
+For each defined function i made sure it returns the equation string which is ```(‘{y} * x = {g})``` and return the answer ```(‘x’)```. As both return functions are in f strings for each question it will generate a different equation with different numbers. 
 
 ### Creating User Input Function 
 
