@@ -6,7 +6,9 @@ The developed python is a program designed to test users with their algebra line
 
 Download the ZIP file from
 
-``` https://github.com/MohamedGalis/Algebra-Simple-Equation-Program.git ```
+```
+https://github.com/MohamedGalis/Algebra-Simple-Equation-Program.git
+```
 
 ![Image](https://github.com/user-attachments/assets/699c5e50-4cbd-4f5c-a57b-7f4cbc65cf7d)
 
@@ -16,7 +18,11 @@ Download the ZIP file from
 
    ![Image](https://github.com/user-attachments/assets/7296a173-2c7e-4cb4-ae76-03cff6b86a5d)
 
-2.Ensure you have the Python 3.9+ installed. You can install python using this link https://www.python.org/downloads/ .
+2.Ensure you have the Python 3.9+ installed. You can install python using this link 
+
+```
+https://www.python.org/downloads/
+```
 
 3.Search Command prompt in the search bar 
 
@@ -26,33 +32,48 @@ Download the ZIP file from
 
 ![image](https://github.com/user-attachments/assets/d028cacb-6d60-4e4f-bc61-5f46dea1f11f)
 
-5.You can now open the python script by entering the following. 
+5.You can now open the python script by entering the following, 
 
-python "Simple Algebra Equation Test.py" 
+```
+python "Simple Algebra Equation Test.py"
+``` 
 
 ![image](https://github.com/user-attachments/assets/6e3422d2-f7d2-4123-a13f-a94b4996e88e)
 
 ### Mac Steps to Run The Program
 
-1.Ensure you have the Python 3.9+ installed. You can install python using this link https://www.python.org/downloads/ . 
+1.Ensure you have the Python 3.9+ installed. You can install python using this link
 
-2.Download the ZIP file.Open Terminal and navigate to Downloads Directory by typing cd ~/Downloads 
+```
+https://www.python.org/downloads/
+```
+
+2.Download the ZIP file.Open Terminal and navigate to Downloads Directory by typing,
+
+```
+cd ~/Downloads
+```
 
 ![image](https://github.com/user-attachments/assets/1f17cad7-c900-4fa6-92f8-4ff0ca482b09)
 
-3.Unzip the folder by entering the following command 
-
- unzip -o Algebra-Simple-Equation-Program-main.zip 
-
+3.Unzip the folder by entering the following command,
+```
+ unzip -o Algebra-Simple-Equation-Program-main.zip
+```
 (Press 'A' when it asks to replace files) 
 
 ![image](https://github.com/user-attachments/assets/c6f39d9c-4d15-4c4c-9d6a-3736a890c1f2)
 
-4.Enter the project folder by entering cd Algebra-Simple-Equation-Program-main/ 
-
+4.Enter the project folder by entering,
+```
+cd Algebra-Simple-Equation-Program-main/ 
+```
 ![image](https://github.com/user-attachments/assets/b7c2f6e6-e4cb-46dc-bd73-ba1a14fc953e)
 
-5.Run the program python3 Simple_Algebra_Equation_Test.py 
+5.Run the program
+```
+python3 Simple_Algebra_Equation_Test.py
+``` 
 
 ![image](https://github.com/user-attachments/assets/2984f69d-cfbf-4a85-9f41-3d96823c651a)
 
