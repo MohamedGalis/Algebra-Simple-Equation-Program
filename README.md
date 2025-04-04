@@ -138,11 +138,49 @@ I created a function that asks the user to solve the equation using
 
 ![image](https://github.com/user-attachments/assets/dc407515-4792-4b6e-8644-88942026c83e)
 
+I then setup the quiz by setting up the start score number which is score = 0 and number of questions test_question = 5.
 
+![image](https://github.com/user-attachments/assets/f143d539-8514-49b5-942d-dd158467d818)
 
+In this part of the code i used ‘for i in range(range(test_questions)’ which is a for loop that iterated over a sequences of numbers.The loop runs 5 times because test_questions  is equal to 5. This means that loop will take the range which goes from 0-5 meaning the loop will execute 5 times once per question. The variable i takes values from 0,1,2,3,4 ( 5 questions). Starts at i = 0 then i = 1 until it completes the iteration. 
 
+equation_type = random.choice([1, 2])  
 
+The loop will randomly select the equation type ‘make_a_equation1’ or ‘make_a_equation2’. 
 
+Depending on the selection: 
+
+If equation_type == 1, it calls make_a_equation1(). 
+
+Else, it calls make_a_equation2(). 
+
+Within the line equation, correct_answer = make_a_equation1(), the function make_a_equation1() returns both the equation as a string and the correct answer. The equation variable stores the string representation of the equation, while correct_answer holds the value of x. This means that when the equation is displayed, it replaces {equation} with the generated equation, and correct_answer will now contain the correct value of x for validation. 
+
+else: 
+
+equation, correct_answer = make_a_equation2() 
+
+If the equation type 1 is not selected it will select choice 2 which is the second type of equation, we created which is make_a_equation2.
+
+The user’s answer is checked against the correct answer: 
+
+If correct: 
+
+Prints "✅Correct!\n" 
+
+Increments score by 1. 
+
+If incorrect: 
+
+Prints "❌Wrong! The correct answer was {correct_answer}.\n"
+
+### Final Score & End of Test
+
+![image](https://github.com/user-attachments/assets/265b1658-d294-468a-b789-e2e4a3d4b57e)
+
+Now that equation stores the generated problem, the program checks the user’s answer. The function get_user_guess(equation) captures their input as user_answer. If user_answer matches correct_answer, it prints ✅ Correct! and adds 1 to score. If wrong, it prints ❌ Wrong! along with the correct answer using an f-string ({correct_answer}). 
+
+Finally, it displays their total score ({score}/{test_questions}) and thanks them for completing the test
 
 
 
