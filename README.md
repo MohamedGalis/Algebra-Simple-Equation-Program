@@ -18,7 +18,7 @@ https://github.com/MohamedGalis/Algebra-Simple-Equation-Program.git
 
 ![image](https://github.com/user-attachments/assets/1f5f9c41-8816-48fa-94c0-faa841715180)
 
-2.Ensure you have the Python 3.9+ installed. You can install python using this link 
+2.Ensure you have the Python 3.13.2 installed. You can install python using this link 
 
 ```
 https://www.python.org/downloads/
