@@ -42,7 +42,7 @@ python "Simple Algebra Equation Test.py"
 
 ### Mac Steps to Run The Program
 
-1.Ensure you have the Python 3.9+ installed. You can install python using this link
+1.Ensure you have the Python 3.13.2 installed. You can install python using this link
 
 ```
 https://www.python.org/downloads/
