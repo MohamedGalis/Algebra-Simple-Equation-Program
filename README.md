@@ -124,7 +124,7 @@ Generates a multiplication equation in the form: y * x = a
 
 ```make_a_equation1(): ``` 
 
-Uses ```Used y = random.randint(-5, 10) and x = random.randint(-5,10) to pick random integers for y and x.``` to pick random integers for y and x. 
+Used ```Used y = random.randint(-5, 10) and x = random.randint(-5,10) to pick random integers for y and x.``` to pick random integers for y and x. 
 
 Returns: 
 
@@ -136,7 +136,7 @@ Generates an addition equation in the form: d + x = g
 
 ```make_a_equation2()```
 
-Uses ```Used d = random.randint(-5, 10) and x = random.randint(-5,10) to pick random integers for d and x.``` for d and x. 
+Used ```Used d = random.randint(-5, 10) and x = random.randint(-5,10) to pick random integers for d and x.``` for d and x. 
 
 Returns: 
 
