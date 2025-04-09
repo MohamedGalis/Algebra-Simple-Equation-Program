@@ -66,7 +66,7 @@ cd ~/Downloads
 
 4.Enter the project folder by entering,
 ```
-cd Algebra-Simple-Equation-Program-main/ 
+cd Algebra-Simple-Equation-Program-main 
 ```
 ![image](https://github.com/user-attachments/assets/b7c2f6e6-e4cb-46dc-bd73-ba1a14fc953e)
 
