@@ -72,7 +72,7 @@ cd Algebra-Simple-Equation-Program-main
 
 5.Run the program
 ```
-python3 Simple_Algebra_Equation_Test.py
+python3 "Simple_Algebra_Equation_Test.py"
 ``` 
 
 ![image](https://github.com/user-attachments/assets/2984f69d-cfbf-4a85-9f41-3d96823c651a)
