@@ -115,16 +115,16 @@ print("Solve for x in each equation. You Got This! \n")
 ### Defining Equations
 
 ![image](https://github.com/user-attachments/assets/b36ef6e2-f421-4aa9-a208-7ec9afadee73)
+
+I imported the Random module which is a library which is used to generate random numbers. I required to import this module to create the two defined function make_a_equation1 and make_a_equation2. 
 ```
 Import Random 
 ```
-i imported the Random module which is a library which is used to generate random numbers. I required to import this module to create the two defined function make_a_equation1 and make_a_equation2. 
+Generates a multiplication equation in the form: y * x = a
 
-```make_a_equation1() ```
+```make_a_equation1(): ``` 
 
-Generates a multiplication equation in the form: y * x = a 
-
-Uses ```random.randint(-5, 10)``` to pick random integers for y and x. 
+Uses ```Used y = random.randint(-5, 10) and x = random.randint(-5,10) to pick random integers for y and x.``` to pick random integers for y and x. 
 
 Returns: 
 
@@ -132,11 +132,11 @@ The equation string ```(f"{y} * x = {a}")```
 
 The correct answer ```(x)``` 
 
+Generates an addition equation in the form: d + x = g
+
 ```make_a_equation2()```
 
-Generates an addition equation in the form: d + x = g 
-
-Uses ```random.randint(-5, 10)``` for d and x. 
+Uses ```Used d = random.randint(-5, 10) and x = random.randint(-5,10) to pick random integers for d and x.``` for d and x. 
 
 Returns: 
 
